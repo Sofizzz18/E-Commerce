@@ -432,21 +432,6 @@ pip install streamlit
 # In[4]:
 
 
-import streamlit as st
-import joblib
-
-model = joblib.load("svm_model.pkl")
-vectorizer = joblib.load("tfidf_vectorizer.pkl")
-
-st.title("E-Commerce Review Sentiment Analysis")
-
-review = st.text_area("Enter Review")
-
-if st.button("Predict"):
-    review_vec = vectorizer.transform([review])
-    prediction = model.predict(review_vec)[0]
-    st.success(f"Sentiment: {prediction}")
-
 
 # ## 9. Predict on New Review
 
