@@ -197,17 +197,22 @@ See `requirements.txt` for the full list. Key libraries:
 ## Screenshots
 
 ### App Interface
-![App Screenshot](screenshots/app.png)
+![App](app.png)
 
 ### Sentiment Distribution
-![Sentiment Distribution](screenshots/sentiment_distribution.png)
+![Sentiment Distribution](sentiment_distribution.png)
+
+### Word Clouds
+![Word Clouds](wordclouds.png)
 
 ### Confusion Matrices
-![Confusion Matrices](screenshots/confusion_matrices.png)
+![Confusion Matrices](confusion_matrices.png)
 
 ### Model Comparison
-![Model Comparison](screenshots/model_comparison.png)
+![Model Comparison](model_comparison.png)
 
+### Star Rating Distribution
+![Star Rating](colored_star_rating_distribution.png)
 ### Key Observations
 
 - **SVM outperforms Naive Bayes** across all metrics — 3.68% higher accuracy overall.
